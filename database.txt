@@ -1,0 +1,12 @@
+id - INT  - NOTNULL, UNIQUE, AUTO_INCREMENT - PRIMARY_KEY
+car brand - VARCHAR(50) - NOTNULL
+car model - VARCHAR(50) - NOTNULL
+license plate - CHAR(6) - NOTNULL
+mileage - MEDIUMINT - NOTNULL
+registration date - DATE - NOTNULL
+engine - VARCHAR(30) - NULL
+fuel type - VARCHAR(30) - NOTNULL
+fuel tank size - SMALLINT - NULL
+manual transmition - TINYINT(1) - NULL, DEFAULT(1)
+price - FLOAT(6,2) - NOTNULL
+car color - CHAR(1) - NULL
